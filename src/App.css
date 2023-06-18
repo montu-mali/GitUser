@@ -1,0 +1,10 @@
+.container{
+  background-color: aqua;
+  display: flex;
+}
+.pcmenu{
+  display: flex;
+}
+ul{
+  text-decoration: none;
+}

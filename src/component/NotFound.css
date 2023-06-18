@@ -1,0 +1,25 @@
+.notFound{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    gap: 20px;
+    
+
+}
+
+.not_fou{
+    font-size: 32px;
+    font-weight: 650;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.btn{
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    margin:auto ;
+    font-size: 15px;
+    padding-bottom: 15px;
+}

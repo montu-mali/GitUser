@@ -1,0 +1,54 @@
+
+body{
+    background-color:  #f1efef;
+    padding-bottom: 10px;
+}
+.hero{
+    display: grid;
+    height: calc(100vh - 102px);
+    place-content: center;
+    
+}
+
+form{
+    
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    padding: 0 0 0 30px;
+
+   
+   
+   
+}
+.search-logo{
+    height: 25px;
+
+}
+
+input{
+    border: none;
+    overflow: move;
+    outline: none;
+    padding: 15px 0px 15px 10px;
+    font-size: 15px;
+    height: 50px;
+    /* width: 50vw; */
+   
+    font-weight: 600;
+    
+    
+}
+
+button{
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    margin: 0px;
+    padding: 15px;
+
+}

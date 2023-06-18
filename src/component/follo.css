@@ -1,0 +1,45 @@
+.follo_box{
+    padding: 10px;
+}
+.person_box{
+    
+    display: flex;
+    margin-bottom: 15px;
+      
+}
+.person{
+    display: flex;
+    margin: auto;
+  
+}
+.user_name{
+    margin: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 20px;
+    font-weight: 600;
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    height: 20px;
+}
+.follo_image{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+
+}
+.person{
+    width: 100%;
+}
+.go_button{
+    cursor: pointer;
+    width: 120px;
+    background-color:white;
+    color: black;
+    border-radius:5px ;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
