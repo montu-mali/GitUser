@@ -127,8 +127,8 @@ const User = () => {
                        <p className="join">Join on : {userInfo.created_at}</p>
                        
                        <div className="user_linkbox">
-                          <a className="blog link" href={userInfo.blog}><img className="info-logo" src={link} alt="blog: " /> {userInfo.blog}</a>
-                          <a className="git link" href={userInfo.html_url}> <img className="info-logo" src={git} alt="git: " /> {userInfo.login}</a>
+                          <a className="blog link" target="_blank" href={userInfo.blog}><img className="info-logo" src={link} alt="blog: " /> {userInfo.blog}</a>
+                          <a className="git link" target="_blank" href={userInfo.html_url}> <img className="info-logo" src={git} alt="git: " /> {userInfo.login}</a>
                           <span className="loc"> <img className="info-logo" src={location} alt="loc: " /> {userInfo.location}</span>
                           {userInfo.bio == null
                             ? ""
