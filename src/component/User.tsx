@@ -118,16 +118,16 @@ const User = () => {
                         : userInfo.bio}</p>
 
                       <div className="follow">
-                        <a className="follo" href="#" onClick={() => {
+                        <span className="follo"  onClick={() => {
                           setshowFollowers(showFollowers ? false : true);
                           setshowFollowings(showFollowings ? false : false)
-                        }}>{userInfo.followers} Followers  </a>
+                        }}>{userInfo.followers} Followers  </span>
 
-                        <a className="follo" href="#" onClick={() => {
+                        <span className="follo"  onClick={() => {
                           setshowFollowings(showFollowings ? false : true);
                           setshowFollowers(showFollowers ? false : false)
                         }}>   {userInfo.following} Following
-                        </a>
+                        </span>
                       </div>
 
                       <p className="join">Join on : {userInfo.created_at}</p>
