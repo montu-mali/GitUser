@@ -39,7 +39,14 @@
     background-color:white;
     color: black;
     border-radius:5px ;
-    height: 30px;
+    /* height: 30px; */
     padding: 5px;
     margin-top: 10px;
+}
+@media (max-width:553px){
+    .go_button{
+        min-height: 30px;
+        width: 80px;
+        margin-top: 5px;
+    }
 }
