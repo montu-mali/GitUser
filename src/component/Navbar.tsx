@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import './navbar.css';
 
@@ -12,7 +13,7 @@ function Navbar() {
           </div>
                 
           <div className="right">
-            <a className="home" href="/home">Home</a>
+            <Link className="home" to="/home">Home</Link>
           </div>
         </div>
       </nav>
