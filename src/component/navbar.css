@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     position: sticky;
+  align-items: center;
     margin-bottom: 30px;
 }
 
@@ -13,7 +14,7 @@
 
 .logo {
 
-    height: 55px;
+    height: 35px;
 }
 
 .right {
@@ -32,11 +33,11 @@
 
 @media (max-width:553px) {
     .nav_container {
-        padding: 20px 10px;
+        padding: 15px 10px;
     }
 
     .logo {
-        height: 45px;
+        height: 25px;
     }
     .right{
         margin: 10px 0px;

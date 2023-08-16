@@ -25,7 +25,6 @@ const handelChange =(e:any)=>{
     <form onSubmit={handelSubmit}>
         <input type="text"
         onChange={handelChange}
-       
         placeholder='Enter Username Github user' 
         />
         <button type='submit' className='submit'><img className='search-logo' src={search} alt="" /> </button>

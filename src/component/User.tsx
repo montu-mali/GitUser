@@ -76,7 +76,7 @@ const User = () => {
 
 
   }, []);
-
+  console.log(userInfo)
 
   return (
     <>
