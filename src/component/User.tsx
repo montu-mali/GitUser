@@ -76,14 +76,9 @@ const User = () => {
 
 
   }, []);
-  console.log(userInfo)
 
   return (
     <>
-
-
-      {/* <Link to="/about">about</Link> */}
-
 
       {status === "Not Found" ? (
         <Notfaund />

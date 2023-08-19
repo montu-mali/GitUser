@@ -7,7 +7,6 @@ import fork from "../assets/fork.svg";
 import goto from "../assets/goto.svg";
 export default function Repos({ username }: { username: string }) {
 
-  // const[repos,setRepos]=useState()
   const [repos, setRepos] = useState([]);
 
   useEffect(() => {
